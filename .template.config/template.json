@@ -1,0 +1,44 @@
+﻿{
+ "$schema": "http://json.schemastore.org/template",
+ "author": "ricardoprestes",
+ "classifications": [],
+ "description": "",
+ "name": "MeuTemplate",
+ "defaultName": "MeuTemplate",
+ "identity": "MeuTemplate.CSharp",
+ "groupIdentity": "MeuTemplate",
+ "tags": {
+   "language": "C#",
+   "type": "project",
+   "vsmac-category": "multiplat/app/forms"
+ },
+ "shortName": "MeuTemplate",
+ "sourceName": "MeuTemplate",
+ "guids": [
+   "{116848BF-166C-4C2C-8D61-D77B0876D081}",
+   "{CAD06822-DBB7-4E27-B3E9-1C3FB4EC08BA}",
+   "{C0C4FE90-911E-4457-B7D5-995804808330}"
+ ],
+ "sources": [
+   {
+     "modifiers": [
+       {
+         "exclude": [
+           ".vs/**/*"
+         ]
+       }
+     ]
+   }
+ ],
+ "primaryOutputs": [
+   {
+     "path": "MeuTemplate/MeuTemplate.csproj"
+   },
+   {
+     "path": "MeuTemplate.Android/MeuTemplate.Android.csproj"
+   },
+   {
+     "path": "MeuTemplate.iOS/MeuTemplate.iOS.csproj"
+   }
+ ]
+}
